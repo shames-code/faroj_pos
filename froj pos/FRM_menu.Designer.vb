@@ -83,6 +83,7 @@ Partial Class FRM_menu
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -91,7 +92,7 @@ Partial Class FRM_menu
         Me.Button3.Size = New System.Drawing.Size(343, 174)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "الاصناف"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button7
         '
