@@ -143,6 +143,7 @@ Partial Class FRM_menu
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -151,7 +152,7 @@ Partial Class FRM_menu
         Me.Button1.Size = New System.Drawing.Size(697, 147)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "محاسبة"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
