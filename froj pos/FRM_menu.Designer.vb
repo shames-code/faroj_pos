@@ -133,15 +133,17 @@ Partial Class FRM_menu
         '
         'Button4
         '
+        Me.Button4.BackColor = System.Drawing.Color.Gray
         Me.Button4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(3, 183)
         Me.Button4.Name = "Button4"
+        Me.Button4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button4.Size = New System.Drawing.Size(342, 174)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "قيمة الدولار"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button1
         '
