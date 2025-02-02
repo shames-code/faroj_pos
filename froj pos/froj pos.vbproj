@@ -151,5 +151,8 @@
   <ItemGroup>
     <None Include="Resources\logo print copy-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jelezniac-bianca-FTHK04C2FLg-unsplash.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
